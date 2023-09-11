@@ -12,6 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^21.3.2",
-    "nodemon": "^3.0.1"
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.1",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.33.0"
   }
 }
