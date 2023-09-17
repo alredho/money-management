@@ -1,4 +1,4 @@
-//const { userRoutes } = require("./Routes/UserRoutes");
+const { userRoutes } = require("./Routes/UserRoutes");
 //const { incomeRoutes } = require("./Routes/IncomeRoutes");
 //const { outcomeRoutes } = require("./Routes/OutcomeRoutes");
 //const { savingRoutes } = require("./Routes/SavingRoutes");
@@ -23,13 +23,13 @@ routes = [
   }, 
 ];
 
-
-
-/*
 userRoutes.forEach(element => {
   routes.push(element)
 });
 
+//console.log(routes);
+
+/*
 incomeRoutes.forEach(element => {
   routes.push(element)
 });
@@ -41,8 +41,6 @@ outcomeRoutes.forEach(element => {
 savingRoutes.forEach(element => {
   routes.push(element)
 });
-
-
 */
 
 module.exports = routes;

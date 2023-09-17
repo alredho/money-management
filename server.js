@@ -1,5 +1,6 @@
 const Hapi = require('@hapi/hapi');
 const routes = require('./routes');
+const Connection = require('./dbconfig');
 
  
 const init = async () => {
